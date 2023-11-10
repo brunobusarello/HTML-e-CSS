@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagem Flexível </h1>
+    <p>Começe a ampliar e reduzir o tamanho da página e veja a mágica &#x1F92F;</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/imagem-250.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-500.jpg" type="image/jpg">
+        <img src="imagens/imagem-1000.jpg" alt="Imagem Flexível">
+    </picture>
+</body>
+</html>
