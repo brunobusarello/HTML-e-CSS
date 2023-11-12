@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 
-<a href="https://brunobusarello.github.io/HTML-e-CSS/Desafios/010/android.html">Acesse para ver meu último desafio</a>
+<a href="https://brunobusarello.github.io/HTML-e-CSS/Desafios/010/android.html" rel="external" target="_blank">Acesse para ver meu último desafio</a>
