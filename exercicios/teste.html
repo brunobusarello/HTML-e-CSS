@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Posicionamento vertical</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: aquamarine;
+        }
+
+        main {
+            max-width: 700px;
+            margin: auto;
+            background-color: aliceblue;
+        }
+
+
+        article.txtimg > p {
+            width: 70%;
+            padding: 10px;
+        }
+
+        article.txtimg > img {
+            width: 20%;
+            display: inline-block;
+            position: relative;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Uma breve história</h1>
+        <article class="txtimg">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquid, fugit delectus esse error omnis necessitatibus quis, quasi amet, odit qui voluptas natus unde illo nobis ratione ex laudantium sapiente!</p>
+            <img src="../desafios/010/imagens/irina-blok-pq.jpg" alt="Irina Blok">
+        </article>
+    </main>
+</body>
+</html>
